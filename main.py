@@ -55,7 +55,7 @@ async def read_index():
 async def startup_db_client():
     global db
     # Создаем подключение к базе данных
-    client = AsyncIOMotorClient("mongodb://localhost:27017")
+    client = AsyncIOMotorClient("mongodb://db:27017")
     db = client["todo_db"]  # Использование базы данных с именем "todo_db"
 
 
