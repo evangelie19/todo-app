@@ -7,6 +7,14 @@ body {
     padding-top: 50px;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+.container h1 {
+    text-align: center;
+}
+
 .container {
     background-color: #ffffff;
     border-radius: 10px;
@@ -24,6 +32,11 @@ h2 {
     flex-direction: column;
     width: 300px;
     margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.form-container input[type=text] {
+    max-width: 100%;
 }
 
 input[type=text] {
