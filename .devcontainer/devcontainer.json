@@ -1,0 +1,16 @@
+{
+    "name": "My Project Dev Container",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "web",
+    "workspaceFolder": "/app",
+    "forwardPorts": [
+        8000
+    ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-python.python"
+    ],
+    "remoteUser": "root"
+}
